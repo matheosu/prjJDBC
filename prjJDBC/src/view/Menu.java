@@ -8,12 +8,11 @@ public class Menu extends JFrame{
 	
 	public Menu(){
 		super("Menu Principal");
-		setBounds(100,50,270,200);
+		setBounds(100,50,1920,1080);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		contentPane = new JPanel();
 		getContentPane().setLayout(null);
-		
 		
 	}
 }
