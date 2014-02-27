@@ -3,7 +3,9 @@ package view;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+@SuppressWarnings("serial")
 public class Menu extends JFrame{
+	@SuppressWarnings("unused")
 	private JPanel contentPane;
 	
 	public Menu(){

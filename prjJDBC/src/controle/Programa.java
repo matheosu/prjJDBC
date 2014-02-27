@@ -1,13 +1,13 @@
 package controle;
 
-import view.Menu;
+import view.Login;
 
 
 public class Programa {
 
 	public static void main(String[] args) {
-		Menu m = new Menu();
-		m.setVisible(true);
+		Login l = new Login();
+		l.setVisible(true);
 
 	}
 
