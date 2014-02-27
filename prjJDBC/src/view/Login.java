@@ -31,7 +31,7 @@ public class Login extends JFrame {
 		add(lblTexto);
 		
 		lblUsuario = new JLabel("Usuário: ");
-		lblUsuario.setBounds(80,20,120,20);
+		lblUsuario.setBounds(20,60,100,20);
 		add(lblUsuario);
 		
 		txtUsuario = new JTextField();
@@ -40,11 +40,11 @@ public class Login extends JFrame {
 		add(txtUsuario);
 		
 		lblSenha = new JLabel("Senha: ");
-		lblSenha.setBounds(80,20,120,20);
+		lblSenha.setBounds(20,90,100,20);
 		add(lblSenha);
 		
 		txtSenha = new JPasswordField();
-		txtSenha.setBounds(80,60,150,20);
+		txtSenha.setBounds(80,90,100,20);
 		txtSenha.setToolTipText("Digite aqui sua senha");
 		add(txtSenha);
 		
