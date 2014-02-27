@@ -1,9 +1,13 @@
 package controle;
 
+import view.Menu;
+
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Menu m = new Menu();
+		m.setVisible(true);
 
 	}
 
